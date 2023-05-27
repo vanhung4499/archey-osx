@@ -217,7 +217,7 @@ else
 # The ${foo#  } is a cheat so that it lines up here as well
 # as when run.
   echo -e "
-${RED#    }                                      ${User} ${model}
+${RED#    }                                      ${User}
 ${normal# }                                      ----------------------------------------------
 ${GREEN#  }                 ###                  ${fieldlist[1]}
 ${GREEN#  }               ####                   ${fieldlist[2]}
