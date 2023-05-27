@@ -1,0 +1,57 @@
+NVMExpress:
+
+    Generic SSD Controller:
+
+        WDS500G3X0C-00SJG0:
+
+          Capacity: 500,11 GB (500.107.862.016 bytes)
+          TRIM Support: Yes
+          Model: WDS500G3X0C-00SJG0
+          Revision: 102000WD
+          Serial Number: 191076440314
+          Link Width: x4
+          Link Speed: 8.0 GT/s
+          Detachable Drive: No
+          BSD Name: disk0
+          Partition Map Type: GPT (GUID Partition Table)
+          Removable Media: No
+          S.M.A.R.T. status: Verified
+          Volumes:
+            EFI:
+              Capacity: 209,7 MB (209.715.200 bytes)
+              File System: MS-DOS FAT32
+              BSD Name: disk0s1
+              Content: EFI
+              Volume UUID: 0E239BC6-F960-3107-89CF-1C97F78BB46B
+            MAC:
+              Capacity: 499,9 GB (499.898.105.856 bytes)
+              BSD Name: disk0s2
+              Content: Apple_APFS
+
+    Generic SSD Controller:
+
+        WDS500G3X0C-00SJG0:
+
+          Capacity: 500,11 GB (500.107.862.016 bytes)
+          TRIM Support: Yes
+          Model: WDS500G3X0C-00SJG0
+          Revision: 102000WD
+          Serial Number: 191076440314
+          Link Width: x4
+          Link Speed: 8.0 GT/s
+          Detachable Drive: No
+          BSD Name: disk0
+          Partition Map Type: GPT (GUID Partition Table)
+          Removable Media: No
+          S.M.A.R.T. status: Verified
+          Volumes:
+            EFI:
+              Capacity: 209,7 MB (209.715.200 bytes)
+              File System: MS-DOS FAT32
+              BSD Name: disk0s1
+              Content: EFI
+              Volume UUID: 0E239BC6-F960-3107-89CF-1C97F78BB46B
+            MAC:
+              Capacity: 499,9 GB (499.898.105.856 bytes)
+              BSD Name: disk0s2
+              Content: Apple_APFS

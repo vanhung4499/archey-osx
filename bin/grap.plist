@@ -1,0 +1,25 @@
+Graphics/Displays:
+
+    AMD Radeon RX 570:
+
+      Chipset Model: AMD Radeon RX 570
+      Type: GPU
+      Bus: PCIe
+      PCIe Lane Width: x16
+      VRAM (Total): 4 GB
+      Vendor: AMD (0x1002)
+      Device ID: 0x67df
+      Revision ID: 0x00ef
+      Metal Support: Metal 2
+      Displays:
+        DELL P2715Q:
+          Resolution: 5120 x 2880 (5K/UHD+ - Ultra High Definition Plus)
+          UI Looks like: 2560 x 1440 @ 60.00Hz
+          Framebuffer Depth: 30-Bit Color (ARGB2101010)
+          Display Serial Number: V7WP9553124S
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+          Rotation: Supported
+          Adapter Type: Thunderbolt/DisplayPort
+
