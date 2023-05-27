@@ -1,0 +1,90 @@
+SATA:
+
+    Intel 10 Series Chipset:
+
+      Vendor: Intel
+      Product: 10 Series Chipset
+      Link Speed: 6 Gigabit
+      Negotiated Link Speed: 6 Gigabit
+      Physical Interconnect: SATA
+      Description: AHCI Version 1.31 Supported
+
+        PLEXTOR PX-128S3C:
+
+          Capacity: 128,04 GB (128.035.676.160 bytes)
+          Model: PLEXTOR PX-128S3C                       
+          Revision: 1,040000
+          Serial Number: P02905109394        
+          Native Command Queuing: Yes
+          Queue Depth: 32
+          Removable Media: No
+          Detachable Drive: No
+          BSD Name: disk0
+          Medium Type: Solid State
+          TRIM Support: Yes
+          Partition Map Type: GPT (GUID Partition Table)
+          S.M.A.R.T. status: Verified
+          Volumes:
+            EFI:
+              Capacity: 209,7 MB (209.715.200 bytes)
+              Free: 188,7 MB (188.667.904 bytes)
+              Writable: Yes
+              File System: MS-DOS FAT32
+              BSD Name: disk0s1
+              Mount Point: /Volumes/EFI
+              Content: EFI
+              Volume UUID: 0E239BC6-F960-3107-89CF-1C97F78BB46B
+            Mac - Data:
+              Capacity: 127,83 GB (127.825.920.000 bytes)
+              BSD Name: disk0s2
+              Content: Apple_APFS
+
+    Intel 10 Series Chipset:
+
+      Vendor: Intel
+      Product: 10 Series Chipset
+      Link Speed: 6 Gigabit
+      Negotiated Link Speed: 6 Gigabit
+      Physical Interconnect: SATA
+      Description: AHCI Version 1.31 Supported
+
+        ST1000LM035-1RK172:
+
+          Capacity: 1 TB (1.000.204.886.016 bytes)
+          Model: ST1000LM035-1RK172                      
+          Revision: SDM2    
+          Serial Number: ZDEA6NPR
+          Native Command Queuing: Yes
+          Queue Depth: 32
+          Removable Media: No
+          Detachable Drive: No
+          BSD Name: disk1
+          Rotational Rate: 5400
+          Medium Type: Rotational
+          Partition Map Type: GPT (GUID Partition Table)
+          S.M.A.R.T. status: Verified
+          Volumes:
+            NO NAME:
+              Capacity: 104,9 MB (104.857.600 bytes)
+              File System: MS-DOS FAT32
+              BSD Name: disk1s1
+              Content: EFI
+              Volume UUID: D6BBD400-A6E0-34FD-A768-A02D622DB7A6
+            disk1s2:
+              Capacity: 16,8 MB (16.777.216 bytes)
+              BSD Name: disk1s2
+              Content: Microsoft Reserved
+            OS:
+              Capacity: 127,25 GB (127.247.843.328 bytes)
+              Free: 27,59 GB (27.590.627.328 bytes)
+              Writable: No
+              File System: NTFS
+              BSD Name: disk1s3
+              Mount Point: /Volumes/OS
+              Content: Microsoft Basic Data
+              Volume UUID: A7DC3CAC-2DA6-43D8-A13F-529D971D2719
+            disk1s4:
+              Capacity: 663,7 MB (663.748.608 bytes)
+              BSD Name: disk1s4
+              Content: Windows Recovery
+

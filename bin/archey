@@ -126,8 +126,8 @@ Disk="$disk_used / $disk_total"
 system_profiler SPNVMeDataType 1> /tmp/nvme.plist 2>/dev/null
 system_profiler SPSerialATADataType 1> /tmp/sata.plist 2>/dev/null
 
-nvmes=$(cat /tmp/nvme.plist | awk -F': ' '/^\ *Model:/ {printf $2"  "}')
-satas=$(cat /tmp/sata.plist | awk -F': ' '/^\ *Model:/ {printf $2"  "}')
+nvmes=$(cat /tmp/nvme.plist | sed 's/ *$//g' | awk -F': ' '/^\ *Model:/ {printf $2"  "}')
+satas=$(cat /tmp/sata.plist | sed 's/ *$//g' |  awk -F': ' '/^\ *Model:/ {printf $2"  "}') 
 
 # GPU
 system_profiler SPDisplaysDataType 1> /tmp/grap.plist 2>/dev/null
